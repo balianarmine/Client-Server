@@ -5,10 +5,9 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-
 int main(int argc, char **argv) //client
 {
-    printf("Connection...");
+  
 
     int client_socket = socket(AF_INET, SOCK_STREAM, 0);
     struct sockaddr_in address;
